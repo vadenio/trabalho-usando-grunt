@@ -1,0 +1,403 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.acesso-rapido{
+	padding-right: 20px;
+}
+/*****************Início Formulário ********************************/
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+@media(min-width:600px){
+	.campoForm{
+	width: 50%;
+	float: left;
+	padding: 10px 20px 10px 20px;
+}
+}
+@media(max-width:600px){
+	.campoForm{
+	 padding: 10px 20px 10px 20px;
+}
+}
+
+.campoForm2{
+	padding: 10px 20px 10px 20px;
+}
+.botao1Form{
+	padding: 10px 20px 10px 20px;
+	background: #5bc0de;
+}
+.botao2Form{
+	padding: 10px 20px 10px 20px;
+	background: #eca9a7;
+	
+}
+.marginBtnForm{
+	margin: 10px 20px 10px 20px;
+}
+.subTitForm{
+	margin-left: 20px;
+}
+.marginTop3px{
+	margin-top: 3px;
+}
+.fundoForm{
+	background: #ffffff;
+	padding: 20px;
+}
+
+/********************Fim**************************************/
+
+
+.font-titulo{
+	color: #606060;
+	padding-left: 10px;
+	padding-top: 20px;
+}
+.font-sub-titulo{
+	color: #959595;
+	padding-left: 10px;
+	padding-bottom: 20px;
+}
+.float-esquerda{
+	float: left;
+}
+
+.float-direita{
+	float: right;
+}
+
+/*Estilos dos Cards*/
+.container{
+    width: 80%;
+    margin: 0 auto;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+.card{
+   padding: 10px;
+	background: #ffffff;
+    margin: 15px;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+
+    flex-basis: 45%;
+}
+
+
+@media (max-width: 727px){
+    .card{
+        flex-basis:100%;
+        margin: 15px 0;
+    }
+}
+
+.container .card h3 {
+	color: #959595;
+}
+.container .card h5 {
+	color: #959595;
+}
+.line2 {
+    height: 1px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    margin-bottom: 20px;
+	
+}
+.fontCard{
+	color: #959595;
+}
+.fontCard th{
+	text-align: left;
+	
+}
+.fontCard td{
+	padding-right: 10px;
+	padding-bottom: 15px;
+	padding-top: 5px;
+	font-size: 14px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.pendente{
+	 background-color: #ffb300;
+    color: #fff;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-right: 10px;
+	border-radius: 2px;
+}
+.aprovado{
+	 background-color: #66bb6a;
+    color: #fff;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-right: 10px;
+	border-radius: 2px;
+}
+.suspendido{
+	 background-color: #d9534f;
+    color: #fff;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-right: 10px;
+	border-radius: 2px;
+}
+.validacao{
+	background-color: #777777;
+    color: #fff;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-right: 10px;
+	border-radius: 2px;	
+}
+
+
+/************************************************fim*************************************/
+
+* {
+   box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.fotoUsu{
+	border-radius: 30px;
+}
+
+
+.logo {
+    background: red;
+    padding: 7px 30px 8px 10px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 200;
+	
+  
+}
+.logo2{
+	font-weight: bold;
+}
+.usuario {
+    background: #35353b;
+   
+}
+.usuario .nomeUsuario{
+	padding: 10px 30px 10px 0px;
+    color: #808082;
+    font-size: 14px;
+	
+}
+
+.item {
+	margin: 5px;
+	
+	text-align: center;
+	
+}
+.flex {
+	display: flex;
+}
+.line {
+    height: 2px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.titulo {
+   
+    color: rgba(255,255,255, 0.4);
+	font-size: 20px;
+	text-align: left;
+	padding: 0px  0px 0px 40px;
+}
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+.material-icons.cinza {
+	color: #757575; 
+	padding: 10px;
+}
+
+.menu .item {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+}
+.menu .item i {
+    float: left;
+    font-size: 20px;
+    margin-right: 15px;
+    color: rgba(255,255,255, 0.3);
+}
+.menu .item .text {
+    float: left;
+    color: rgba(255,255,255, 0.4);
+}
+
+.menu .item.active .text,
+.menu .item.active i {
+    color:  #17bab8;
+}
+
+
+
+.menu-responsivo .item {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+}
+.menu-responsivo .item i {
+    float: left;
+    font-size: 20px;
+    margin-right: 15px;
+    color: rgba(255,255,255, 0.3);
+}
+.menu-responsivo .item .text {
+    float: left;
+    color: rgba(255,255,255, 0.4);
+}
+
+.menu-responsivo .item.active .text,
+.menu-responsivo .item.active i {
+    color:  #17bab8;
+}
+
+
+
+@media(min-width:600px){
+	.menu {
+    width: 20%;
+    float: left;
+	background: #2c2c31;
+}
+	.menu-responsivo{
+		display: none;
+		
+	}
+	.botao{
+		display: none;
+		
+	}
+.main {
+    width: 80%;
+    float: left;
+	background: #ffffff;
+}
+	.form {
+    width: 80%;
+    float: left;
+	
+}
+}
+
+@media(max-width:600px){
+	.menu {
+    display: none;
+}
+.main {
+    width: 100%;
+    float: left;
+	background: #ffffff;
+}
+	.form {
+    width: 100%;
+    float: left;
+	
+	
+}
+	
+}
+
+.corFundo{
+	background: #e4e9f0;
+}
+.borda{
+	border: 1px solid #dedede;
+	padding: 2px;
+	border-radius: 2px;
+	font-size: 14px;
+	}
+

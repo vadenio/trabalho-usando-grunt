@@ -1,0 +1,27 @@
+/*********Inicio botão menu******/
+.barra{
+	width: 300px;
+	position: absolute;
+	transition: all .2s linear;
+	left: -300px;
+	background: #2c2c31;
+}
+
+nav{
+	position: absolute;
+	top: 30px;
+}
+#check:checked ~ .barra{
+	transform: translateX(300px);
+}
+#check{
+	display: none;
+}
+
+.menu a:hover{
+	color:  #17bab8;
+}
+a:hover{
+	color:  #17bab8;
+}
+/*******Fim*********/

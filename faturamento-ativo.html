@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>AdminWEBDEV</title>
+<link rel="stylesheet" href="font/flaticon.css">
+<link href="https://fonts.googleapis.com/css?family=Passion+One|Source+Sans+Pro:200,400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+<link rel="stylesheet" href="dist/css/style.min.css">
+
+</head>
+
+<body class="corFundo">
+<div class="menu">
+  <div class="logo">Admin<span class="logo2">WEBDEV </span> </div>
+  <section class="flex usuario">
+    <div class="item"><img class="fotoUsu" src="img/user.jpg" alt=""></div>
+    <div class="item nomeUsuario">Nome usuário</div>
+  </section>
+  <div>
+    <h5 class="titulo">FINANCEIRO</h5>
+  </div>
+  <div class="line"></div>
+  <a href="index.html">
+  <div class="item"><!--<i class="material-icons">dashboard</i>--> 
+    <i class="material-icons">dashboard</i>
+    <div class="text">Fluxo de caixa</div>
+  </div>
+  </a> <a href="">
+  <div class="item  active"> <i class="material-icons">subtitles</i>
+    <div class="text">Faturamento ativo</div>
+  </div>
+  </a> <a href="">
+  <div class="item"> <i class="material-icons">done</i>
+    <div class="text">Recebimento baixados</div>
+  </div>
+  </a> <a href="">
+  <div class="item"> <i class="material-icons">compare_arrows</i>
+    <div class="text">Conciliação bancária</div>
+  </div>
+  </a>
+  <div class="line"></div>
+  <div>
+    <h5 class="titulo">COMERCIAL</h5>
+  </div>
+  <div class="line"></div>
+  <a href="">
+  <div class="item"> <i class="material-icons">grid_on</i>
+    <div class="text">Cadastro de produtos</div>
+  </div>
+  </a> <a href="">
+  <div class="item"> <i class="material-icons">done</i>
+    <div class="text">Rotatividade</div>
+  </div>
+  </a> <a href="">
+  <div class="item"> <i class="material-icons">view_comfy</i>
+    <div class="text">Grade de itens</div>
+  </div>
+  </a> <a href="">
+  <div class="item"> <i class="material-icons">content_paste</i>
+    <div class="text">Estoque de itens</div>
+  </div>
+  </a> </div>
+<input type="checkbox" id="check">
+<label id="icone" for="check"><i class="material-icons float-esquerda botao">reorder</i></label>
+<nav class="menu-responsivo barra">
+  <div class="logo">Admin<span class="logo2">WEBDEV </span> </div>
+  <section class="flex usuario">
+    <div class="item"><img class="fotoUsu" src="img/user.jpg" alt=""></div>
+    <div class="item nomeUsuario">Nome usuário</div>
+  </section>
+  <div>
+    <h5 class="titulo">FINANCEIRO</h5>
+  </div>
+  <div class="line"></div>
+  <a href="index.html">
+  <div class="item "><!--<i class="material-icons">dashboard</i>--> 
+    <i class="material-icons">dashboard</i>
+    <div class="text">Fluxo de caixa</div>
+  </div>
+  </a> <a href="">
+  <div class="item active"> <i class="material-icons">subtitles</i>
+    <div class="text">Faturamento ativo</div>
+  </div>
+  </a> <a href="">
+  <div class="item"> <i class="material-icons">done</i>
+    <div class="text">Recebimento baixados</div>
+  </div>
+  </a> <a href="">
+  <div class="item"> <i class="material-icons">compare_arrows</i>
+    <div class="text">Conciliação bancária</div>
+  </div>
+  </a>
+  <div class="line"></div>
+  <div>
+    <h5 class="titulo">COMERCIAL</h5>
+  </div>
+  <div class="line"></div>
+  <a href="">
+  <div class="item"> <i class="material-icons">grid_on</i>
+    <div class="text">Cadastro de produtos</div>
+  </div>
+  </a> <a href="">
+  <div class="item"> <i class="material-icons">done</i>
+    <div class="text">Rotatividade</div>
+  </div>
+  </a> <a href="">
+  <div class="item"> <i class="material-icons">view_comfy</i>
+    <div class="text">Grade de itens</div>
+  </div>
+  </a> <a href="">
+  <div class="item"> <i class="material-icons">content_paste</i>
+    <div class="text">Estoque de itens</div>
+  </div>
+  </a> </nav>
+<div class="main"> <i class="material-icons cinza float-direita">search</i> <i class="material-icons cinza float-direita">apps</i> <i class="material-icons cinza float-direita">vpn_lock</i> </div>
+<div class="main marginTop3px">
+  <h3 class="font-titulo">Faturamento ativo</h3>
+  <h5 class="font-sub-titulo">Cadastro de bot para faturamento ativo <span class="float-direita acesso-rapido">Home 	&gt;  Faturamento 	&gt;  Novo</span></h5>
+</div>
+
+<form action="" class="form fundoForm marginTop3px">
+ <div>
+ <h3 class="font-titulo subTitForm">CADASTRO</h3>
+  <h5 class="font-sub-titulo subTitForm">Informe os dados do bot</h5>
+  </div>
+  <div class="campoForm">
+    <label for="nome">Nome do correntista</label>
+    <input type="text" id="nome" name="nome" placeholder="Digite o nome">
+   
+  </div>
+  
+  <div class="campoForm">
+  	<label for="senha">Senha</label>
+    <input type="text" id="senha" name="senha" placeholder="Digite uma senha válida">
+  </div>
+  <div class="campoForm">
+    <label for="email">E-mail</label>
+    <input type="text" id="email" name="email" placeholder="email@exemplo.com">
+   
+  </div>
+  <div class="campoForm">
+  	 <label for="url">Url</label>
+    <input type="text" id="url" name="senha" placeholder="http://wwww.exemplo.com">
+  </div>
+  <div class="campoForm2">
+    <label for="rastrear">Rastrear o ativo</label>
+    <input type="text" id="rastrear" name="rastrear" placeholder="Procura por...">
+  </div>
+  <div class="float-direita marginBtnForm">
+  	<input class="botao1Form" type="submit" value="Ativar faturamento">
+   <input class="botao2Form" type="submit" value="Cancelar">
+  </div>
+</form>
+
+</body>
+</html>
